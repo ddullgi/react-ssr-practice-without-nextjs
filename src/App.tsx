@@ -1,7 +1,7 @@
 import { useEffect } from 'react'
-import './App.css'
 import { TodoResponse } from './fetch'
 import { Todo } from './components/Todo'
+import React from 'react'
 
 export default function App({ todos }: { todos: Array<TodoResponse> }) {
   useEffect(() => {

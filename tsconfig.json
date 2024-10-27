@@ -1,7 +1,15 @@
 {
-  "files": [],
-  "references": [
-    { "path": "./tsconfig.app.json" },
-    { "path": "./tsconfig.node.json" }
-  ]
+  "$schema": "https://json.schemastore.org/tsconfig.json",
+  "compilerOptions": {
+    "outDir": "dist",
+    "module": "commonjs",
+    "target": "ES2022",
+    "moduleResolution": "node",
+    "jsx": "react",
+    "sourceMap": true,
+    "strict": true,
+    "noEmitOnError": true,
+    "esModuleInterop": true
+  },
+  "exclude": ["node_modules"]
 }

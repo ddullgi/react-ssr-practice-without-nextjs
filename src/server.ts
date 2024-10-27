@@ -4,7 +4,7 @@ import { createReadStream } from "fs"
 import { renderToString } from "react-dom/server"
 import { createElement } from "react"
 
-import html from "../public/index.html?raw"
+import html from "../public/index.html"
 // import indexFront from "../public/index-front.html"
 // import indexEnd from "../public/index-end.html"
 

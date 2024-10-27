@@ -66,9 +66,6 @@ importers:
       typescript-eslint:
         specifier: ^8.10.0
         version: 8.11.0(eslint@9.13.0)(typescript@5.6.3)
-      vite:
-        specifier: ^5.4.9
-        version: 5.4.10(@types/node@22.8.1)(terser@5.36.0)
       webpack:
         specifier: ^5.95.0
         version: 5.95.0(webpack-cli@5.1.4)
